@@ -1,0 +1,36 @@
+body {
+    background-color: #333333;
+    color: #ffffff;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.house {
+    padding: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 14px;
+    background-color: #2b2b2b;
+    width: 1024px;
+    height: 512px;
+}
+
+.center {
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 14px;
+    background-color: #7700ff;
+    color: #ffffff;
+    font-size: x-large;
+}
+
+button:active {
+    background-color: #460096;
+}
